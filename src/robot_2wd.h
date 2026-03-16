@@ -4,6 +4,7 @@
     *   Created on: Jun 6, 2024
     *   Header file for 2 wheel drive (2WD) robot motor controls
     *   This file contains function prototypes and definitions for controlling a 2WD robot using the Raspberry Pi Pico.
+    *   Pasan_RK95
 */
 
 #ifndef ROBOT_2WD_H

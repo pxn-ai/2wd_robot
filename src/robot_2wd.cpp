@@ -1,8 +1,8 @@
 /*
     *   robot_2wd.cpp
-    *   Pasan_RK95
     *   Created on: Jun 6, 2024
     *   Declarations of the functions for 2 wheel drive (2WD) robot motor controls
+    *   Pasan_RK95
 */
 
 #include <stdio.h>

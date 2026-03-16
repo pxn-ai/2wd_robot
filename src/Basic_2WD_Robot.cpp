@@ -4,6 +4,7 @@
     * A simple demonstration of controlling a 2WD robot using the Raspberry Pi Pico.
     * This code initializes the motors and performs a series of movements to showcase basic functionality.
     *
+    * Pasan_RK95
 */
 
 #include <stdio.h>

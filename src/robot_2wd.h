@@ -21,8 +21,8 @@
 #define PARITY    UART_PARITY_NONE
 
 // --- Motor Pin Definitions ---
-#define LEFT_L_PWM 20
-#define LEFT_R_PWM 21
+#define LEFT_L_PWM 21
+#define LEFT_R_PWM 20
 #define RIGHT_L_PWM 22
 #define RIGHT_R_PWM 28
 

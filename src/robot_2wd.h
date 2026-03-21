@@ -1,11 +1,11 @@
 /*
-    *   robot_2wd.h
-    *   Pasan_RK95
-    *   Created on: Jun 6, 2024
-    *   Header file for 2 wheel drive (2WD) robot motor controls
-    *   This file contains function prototypes and definitions for controlling a 2WD robot using the Raspberry Pi Pico.
-    *   Pasan_RK95
-*/
+ *   robot_2wd.h
+ *   Pasan_RK95
+ *   Created on: Jun 6, 2024
+ *   Header file for 2 wheel drive (2WD) robot motor controls
+ *   This file contains function prototypes and definitions for controlling a 2WD robot using the Raspberry Pi Pico.
+ *   Pasan_RK95
+ */
 
 #ifndef ROBOT_2WD_H
 #define ROBOT_2WD_H
@@ -18,7 +18,7 @@
 #define BAUD_RATE 115200
 #define DATA_BITS 8
 #define STOP_BITS 1
-#define PARITY    UART_PARITY_NONE
+#define PARITY UART_PARITY_NONE
 
 // --- Motor Pin Definitions ---
 #define LEFT_L_PWM 21
@@ -30,7 +30,7 @@
 #define MAX_SPEED 255
 
 // --- Function Prototypes ---
-// These tell the compiler that these functions exist, 
+// These tell the compiler that these functions exist,
 // even though the actual code is in the .cpp file.
 int64_t alarm_callback(alarm_id_t id, void *user_data);
 void setup_motor_pins(uint gpio_pin);

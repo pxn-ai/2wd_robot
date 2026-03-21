@@ -20,7 +20,7 @@ int main() {
     
     // Sample speed for demo
     int speed = MAX_SPEED * (2/3) ;
-    
+
     sleep_ms(2000); // Wait for 2 seconds before starting the demo
     demo_movements(speed);
     
@@ -39,6 +39,6 @@ int main() {
 
     printf("Demo Completed. Stopping Motors.\n");
     stop_motors();
-    
+
     return 0;
 }

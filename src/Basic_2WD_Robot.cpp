@@ -23,6 +23,9 @@ int main() {
 
     sleep_ms(2000); // Wait for 2 seconds before starting the demo
     demo_movements(speed);
+
+    // run again
+    demo_movements(speed);
     
     // blink an LED to indicate demo completion (optional)
     const uint LED_PIN = PICO_DEFAULT_LED_PIN;

@@ -20,11 +20,16 @@
 #define STOP_BITS 1
 #define PARITY UART_PARITY_NONE
 
-// --- Motor Pin Definitions ---
-#define LEFT_L_PWM 21
-#define LEFT_R_PWM 20
-#define RIGHT_L_PWM 22
-#define RIGHT_R_PWM 28
+// --- Motor Pin Definitions (L298N Motor Driver) ---
+// Left Motor
+#define LEFT_ENA 20 // Enable A - PWM for left motor speed
+#define LEFT_IN1 14 // Direction A - Left motor forward
+#define LEFT_IN2 22 // Direction A - Left motor reverse
+
+// Right Motor
+#define RIGHT_ENB 21 // Enable B - PWM for right motor speed
+#define RIGHT_IN3 15 // Direction B - Right motor forward
+#define RIGHT_IN4 28 // Direction B - Right motor reverse
 
 // --- Settings ---
 #define MAX_SPEED 255
